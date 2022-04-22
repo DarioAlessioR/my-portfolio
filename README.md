@@ -2,7 +2,7 @@
 
 Project Name: Dario Alessio's Portafolio
 
-Description of the project: 
+Description of project: 
 
 This is a page for mobile devices create to include professional information regarding technical and soft skills and abilities to inform potential employers.
 
