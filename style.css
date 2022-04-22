@@ -21,10 +21,15 @@ nav a {
   display: block;
   padding: 0 5px;
   text-decoration: none;
+  margin: 5px;
 }
 
 .email {
   display: block;
+  /*
+  background-image: url("Icon-Mail.png");
+  background-repeat: no-repeat;
+  */
   padding: 1px 1px 0;
   text-decoration: none;
   margin-bottom: -4px;
@@ -64,28 +69,20 @@ section {
   width: 100%;
 }
 
+#portafolio {
+    background-image: url('images/ball.png'), url('images/ball.png');
+    background-size: 184px 184px, 226px 226px;
+    background-position: left 20px top 100px, right 20px top 500px;
+    background-repeat: no-repeat, no-repeat;
+}
+
 .name {
   color: #9390ff;
   font-weight: 700;
   font-size: 4rem;
   line-height: 105px;
   text-align: center;
-}
-
-.circle1 {
-  height: 184px;
-  width: 184px;
-  left: 25px;
-  top: 100px;
-  position: absolute;
-}
-
-.circle2 {
-  height: 226px;
-  width: 226px;
-  top: 500px;
-  right: 25px;
-  position: absolute;
+  margin: 5px;
 }
 
 .profession {
@@ -93,9 +90,11 @@ section {
   font-size: 2rem;
   line-height: 47px;
   text-align: center;
+  margin: 5px;
+  color: #efe1e6;
 }
 
-.desc {
+p {
   max-width: 40%;
   align-items: center;
   padding-top: 10%;
@@ -107,6 +106,7 @@ section {
   line-height: 32px;
   text-align: center;
   color: #b3bac5;
+  margin: 5px;
 }
 
 nav li {
@@ -115,17 +115,21 @@ nav li {
 
 .container-strengths {
   display: flex;
-  max-width: 60%;
-  margin: 0 20% 0 20%;
+  max-width: 800px;
+  /*margin: 0 20% 0 20%;*/
+  margin: 30px auto;
   justify-content: space-evenly;
   flex-direction: row;
   align-items: stretch;
+  /*
   border-top: 1px solid #646369;
   border-bottom: 1px solid #646369;
   padding-left: 165px;
   padding-right: 5px;
   padding-top: 50px;
   padding-bottom: 50px;
+  */
+  padding: 50px 5px;
   text-align: left;
   font-size: 1.1rem;
 }
@@ -140,6 +144,7 @@ nav li {
   padding-top: 25px;
   padding-bottom: 20px;
   font-size: 1.6rem;
+  margin: 2px;
 }
 
 .innerItems {
@@ -184,6 +189,14 @@ nav li {
 
 .features ul li {
   padding: 15px 0;
+  color: white;
+}
+
+hr {
+    border: 1px solid #9b9b9b;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 80%;
 }
 
 @media screen and (max-width: 600px) {
@@ -197,14 +210,22 @@ nav li {
     display: none;
   }
 
+  #portafolio {
+    background-image: url('images/ball.png'), url('images/ball.png');
+    background-size: 226px 226px, 184px 184px;
+    background-position: left -140px top 0px, right -120px top 480px;
+    background-repeat: no-repeat, no-repeat;
+}  
+
   .email {
     display: none;
   }
 
   .menu {
+    background: url('images/union.png') no-repeat;
+    height: 30px;
     display: block;
-    padding: 5px 15px;
-    text-decoration: none;
+    width: 30px;
   }
 
   .name {
@@ -215,7 +236,7 @@ nav li {
     text-align: center;
   }
 
-  .desc {
+  p {
     max-width: 70%;
     padding-left: 15%;
     padding-right: 5%;
@@ -224,35 +245,21 @@ nav li {
 
   .container-strengths {
     display: flex;
-    margin: 0 20% 0 20%;
+    margin: 30px 0;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    /*
     border-top: 1px solid #646369;
     border-bottom: 1px solid #646369;
-    padding: 0 5px;
+    */
+    padding: 0 30px;
     font-size: 0.7rem;
     width: 100%;
   }
 
   .features {
     width: 50%;
-  }
-
-  .circle1 {
-    height: 184px;
-    width: 184px;
-    left: -100px;
-    top: 100px;
-    position: absolute;
-  }
-
-  .circle2 {
-    height: 226px;
-    width: 226px;
-    top: 546px;
-    right: -100px;
-    position: absolute;
   }
 
   .innerItems {
