@@ -26,10 +26,6 @@ nav a {
 
 .email {
   display: block;
-  /*
-  background-image: url("Icon-Mail.png");
-  background-repeat: no-repeat;
-  */
   padding: 1px 1px 0;
   text-decoration: none;
   margin-bottom: -4px;
@@ -70,10 +66,10 @@ section {
 }
 
 #portafolio {
-    background-image: url('images/ball.png'), url('images/ball.png');
-    background-size: 184px 184px, 226px 226px;
-    background-position: left 20px top 100px, right 20px top 500px;
-    background-repeat: no-repeat, no-repeat;
+  background-image: url('images/ball.png'), url('images/ball.png');
+  background-size: 184px 184px, 226px 226px;
+  background-position: left 20px top 100px, right 20px top 500px;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .name {
@@ -116,35 +112,32 @@ nav li {
 .container-strengths {
   display: flex;
   max-width: 800px;
-  /*margin: 0 20% 0 20%;*/
   margin: 30px auto;
   justify-content: space-evenly;
   flex-direction: row;
   align-items: stretch;
-  /*
-  border-top: 1px solid #646369;
-  border-bottom: 1px solid #646369;
-  padding-left: 165px;
-  padding-right: 5px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  */
   padding: 50px 5px;
   text-align: left;
   font-size: 1.1rem;
 }
 
 .container-WorkSocial {
+  box-sizing: border-box;
   display: flex;
-  justify-content: space-around;
-  border: 0 solid white;
+  justify-content: center;
   color: #b3bac5;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 25px;
-  padding-bottom: 20px;
+  padding: 25px 20px 20px 20px;
   font-size: 1.6rem;
-  margin: 2px;
+}
+
+.container-WorkSocial ul {
+  list-style: none;
+  margin: 10px 30px 20px 30px;
+}
+
+.container-WorkSocial ul li {
+  display: inline-block;
+  margin: 0 20px;
 }
 
 .innerItems {
@@ -193,10 +186,14 @@ nav li {
 }
 
 hr {
-    border: 1px solid #9b9b9b;
-    margin: 0 auto;
-    max-width: 800px;
-    width: 80%;
+  border: 1px solid #9b9b9b;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 80%;
+}
+
+#ctrlHide {
+  display: block;
 }
 
 @media screen and (max-width: 600px) {
@@ -213,9 +210,9 @@ hr {
   #portafolio {
     background-image: url('images/ball.png'), url('images/ball.png');
     background-size: 226px 226px, 184px 184px;
-    background-position: left -140px top 0px, right -120px top 480px;
+    background-position: left -140px top 0, right -120px top 480px;
     background-repeat: no-repeat, no-repeat;
-}  
+  }
 
   .email {
     display: none;
@@ -249,10 +246,6 @@ hr {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    /*
-    border-top: 1px solid #646369;
-    border-bottom: 1px solid #646369;
-    */
     padding: 0 30px;
     font-size: 0.7rem;
     width: 100%;
@@ -272,5 +265,20 @@ hr {
     height: 40px;
     margin-top: 8px;
     padding: 0;
+  }
+
+  .container-WorkSocial {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container-WorkSocial ul {
+    list-style: none;
+    margin: 10px 0 20px 0;
+  }
+
+  #ctrlHide {
+    display: none;
   }
 }
