@@ -1,56 +1,32 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+Project Name: Dario Alessio's Portafolio
 
-> Description the project.
+Description of the project: 
 
+This is a page for mobile devices create to include professional information regarding technical and soft skills and abilities to inform potential employers.
 
-## Built With
+This is the first part of the whole project and so it includes only the homepage for mobile devices.
 
-- Major languages
-- Frameworks
-- Technologies used
+Project will be updated in next weeks with more information about the completed projects that will form part of the portafolio.
 
-## Live Demo (if available)
+The project hs been done following template # 4 of Figma options provided by Microverse.
 
-[Live Demo Link](https://livedemo.com)
+Built With:
+Major languages: HTML, CSS
+Frameworks: Visual Studio Code, Figma
+Technologies used: Git, GitHub, linters.
 
+Getting Started: no special instructions to get started
 
-## Getting Started
+Authors:
+👤 Dario Alessio
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- GitHub: https://github.com/DarioAlessioR
 
+- LinkedIn: linkedin.com/in/dario-alessio-3a3b7911b
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Slack: https://microverse-students.slack.com/team/U039GCFRK9B
 
 ## 🤝 Contributing
 
