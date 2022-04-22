@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+a {
+  color: white;
+}
+
+body {
+  background-color: #191765;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav a {
+  display: block;
+  padding: 0 5px;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.email {
+  display: block;
+  padding: 1px 1px 0;
+  text-decoration: none;
+  margin-bottom: -4px;
+}
+
+.menu {
+  display: none;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 15px;
+}
+
+header h5 {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #fff;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
+section {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+#portafolio {
+  background-image: url('images/ball.png'), url('images/ball.png');
+  background-size: 184px 184px, 226px 226px;
+  background-position: left 20px top 100px, right 20px top 500px;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.name {
+  color: #9390ff;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 105px;
+  text-align: center;
+  margin: 5px;
+}
+
+.profession {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 47px;
+  text-align: center;
+  margin: 5px;
+  color: #efe1e6;
+}
+
+p {
+  max-width: 40%;
+  align-items: center;
+  padding-top: 10%;
+  padding-left: 35%;
+  padding-right: 35%;
+  padding-bottom: 5%;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 32px;
+  text-align: center;
+  color: #b3bac5;
+  margin: 5px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.container-strengths {
+  display: flex;
+  max-width: 800px;
+  margin: 30px auto;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 50px 5px;
+  text-align: left;
+  font-size: 1.1rem;
+}
+
+.container-WorkSocial {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  color: #b3bac5;
+  padding: 25px 20px 20px 20px;
+  font-size: 1.6rem;
+}
+
+.container-WorkSocial ul {
+  list-style: none;
+  margin: 10px 30px 20px 30px;
+}
+
+.container-WorkSocial ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.innerItems {
+  height: 21.3px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+.disableIN {
+  height: 40px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.Group55a {
+  height: 21.3px;
+  margin-top: 10px;
+  margin-right: 180px;
+  padding: 0;
+}
+
+.Group55b {
+  height: 21.3px;
+  margin-top: 10px;
+  margin-left: 180px;
+  padding: 0;
+}
+
+.features {
+  width: 33.3%;
+}
+
+.features h4 {
+  color: #9390ff;
+}
+
+.features ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.features ul li {
+  padding: 15px 0;
+  color: white;
+}
+
+hr {
+  border: 1px solid #9b9b9b;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 80%;
+}
+
+#ctrlHide {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    box-sizing: border-box;
+    padding: 15px 15px;
+    width: 100%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  #portafolio {
+    background-image: url('images/ball.png'), url('images/ball.png');
+    background-size: 226px 226px, 184px 184px;
+    background-position: left -140px top 0, right -120px top 480px;
+    background-repeat: no-repeat, no-repeat;
+  }
+
+  .email {
+    display: none;
+  }
+
+  .menu {
+    background: url('images/union.png') no-repeat;
+    height: 30px;
+    display: block;
+    width: 30px;
+  }
+
+  .name {
+    color: #9390ff;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 105px;
+    text-align: center;
+  }
+
+  p {
+    max-width: 70%;
+    padding-left: 15%;
+    padding-right: 5%;
+    font-size: 1rem;
+  }
+
+  .container-strengths {
+    display: flex;
+    margin: 30px 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 30px;
+    font-size: 0.7rem;
+    width: 100%;
+  }
+
+  .features {
+    width: 50%;
+  }
+
+  .innerItems {
+    height: 21.3px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .disableIN {
+    height: 40px;
+    margin-top: 8px;
+    padding: 0;
+  }
+
+  .container-WorkSocial {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container-WorkSocial ul {
+    list-style: none;
+    margin: 10px 0 20px 0;
+  }
+
+  #ctrlHide {
+    display: none;
+  }
+}

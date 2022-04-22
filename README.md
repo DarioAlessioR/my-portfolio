@@ -1,73 +1,63 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+Project Name: Dario Alessio's Portfolio
 
-> Description the project.
+Description the project: 
+This is a page for mobile devices create to include professional information regarding technical and soft skills and abilities to inform potential employers.
 
+This is the first part of the whole project and so it includes only the homepage for mobile devices.
 
-## Built With
+Project will be updated in next weeks with more information about the completed projects that will form part of the portafolio.
 
-- Major languages
-- Frameworks
-- Technologies used
+The project has been done following template # 4 of Figma options provided by Microverse.
 
-## Live Demo (if available)
+Built With:
 
-[Live Demo Link](https://livedemo.com)
+Major languages: HTML, CSS
 
+Frameworks: Visual Studio Code, Figma
 
-## Getting Started
+Technologies used: Git, GitHub, linters.
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+Live Demo (if available): no Live Demo available
 
+Live Demo Link:
 
-To get a local copy up and running follow these simple example steps.
+Getting Started: no special instructions needed
 
-### Prerequisites
+Prerequisites: no prerequisites
 
-### Setup
+Setup
 
-### Install
+Install
 
-### Usage
+Usage
 
-### Run tests
+Run tests
 
-### Deployment
+Deployment
 
+Authors
 
+👤 Dario Alessio  (@DarioAlessioR)
 
-## Authors
+GitHub: https://github.com/DarioAlessioR
 
-👤 **Author1**
+LinkedIn: linkedin.com/in/dario-alessio-3a3b7911b
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+Slack: https://microverse-students.slack.com/team/U039GCFRK9B
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
+🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the issues page.
 
-## Show your support
-
+Show your support
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+Acknowledgments
+Hat tip to anyone whose code was used
+Inspiration
+etc
+📝 License
+This project is MIT licensed.
