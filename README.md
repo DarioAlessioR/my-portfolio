@@ -1,9 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Project Name: Dario Alessio's Portafolio
+Project Name: Dario Alessio's Portfolio
 
-Description of project: 
-
+Description the project: 
 This is a page for mobile devices create to include professional information regarding technical and soft skills and abilities to inform potential employers.
 
 This is the first part of the whole project and so it includes only the homepage for mobile devices.
@@ -17,33 +16,36 @@ Major languages: HTML, CSS
 Frameworks: Visual Studio Code, Figma
 Technologies used: Git, GitHub, linters.
 
-Getting Started: no special instructions to get started
+Live Demo (if available): no Live Demo available
+Live Demo Link:
 
-Authors:
-👤 Dario Alessio
+Getting Started: no special instructions needed
 
-- GitHub: https://github.com/DarioAlessioR
+Prerequisites: no prerequisites
+Setup
+Install
+Usage
+Run tests
+Deployment
 
-- LinkedIn: linkedin.com/in/dario-alessio-3a3b7911b
+Authors
+👤 Dario Alessio  (@DarioAlessioR)
 
-- Slack: https://microverse-students.slack.com/team/U039GCFRK9B
+GitHub: https://github.com/DarioAlessioR
+LinkedIn: linkedin.com/in/dario-alessio-3a3b7911b
+Slack: https://microverse-students.slack.com/team/U039GCFRK9B
 
-## 🤝 Contributing
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
 
-Contributions, issues, and feature requests are welcome !
+Feel free to check the issues page.
 
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
+Show your support
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+Acknowledgments
+Hat tip to anyone whose code was used
+Inspiration
+etc
+📝 License
+This project is MIT licensed.
