@@ -78,6 +78,7 @@ section {
   background-position: left -10px top 100px, right -40px top 900px, left -10px top 1520px, right -40px top 2150px;
   background-size: 55%;
 }
+
 .name {
   color: #9390ff;
   font-weight: 700;
@@ -292,8 +293,6 @@ article {
   padding-bottom: 15%;
 }
 
-
-
 @media screen and (max-width: 600px) {
   body {
     margin-right: 0;
@@ -385,7 +384,7 @@ article {
   }
 
   #works {
-    padding: 10px 0px;
+    padding: 10px 0;
     margin-bottom: 30px;
     max-width: 600px;
     width: 100%;
