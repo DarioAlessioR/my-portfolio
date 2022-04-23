@@ -73,13 +73,11 @@ section {
 }
 
 #portfolio1 {
-  background-image: url('images/ball.png'), url('images/ball.png');
-  background-size: 184px 184px, 226px 226px;
-  background-position: left 20px top 100px, right 20px top 500px;
-  background-repeat: no-repeat, no-repeat;
+  background: url('images/Ellipse19.png'), url('images/Ellipse20.svg'), url('images/Ellipse21.svg'), url('images/Ellipse22.svg');
+  background-repeat: no-repeat;
+  background-position: left -10px top 100px, right -40px top 900px, left -10px top 1520px, right -40px top 2150px;
+  background-size: 55%;
 }
-
-
 .name {
   color: #9390ff;
   font-weight: 700;
