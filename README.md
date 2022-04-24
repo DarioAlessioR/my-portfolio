@@ -5,7 +5,7 @@ Project Name: Dario Alessio's Portfolio
 Description the project: 
 This is a page for mobile devices create to include professional information regarding technical and soft skills and abilities to inform potential employers.
 
-This is the first part of the whole project and so it includes only the homepage for mobile devices.
+This is the second part of the whole project. It includes the previously completed homepage section and the newly added "My recent works" and "About" section for mobile devices.
 
 Project will be updated in next weeks with more information about the completed projects that will form part of the portafolio.
 
@@ -55,9 +55,10 @@ Feel free to check the issues page.
 Show your support
 Give a ⭐️ if you like this project!
 
-Acknowledgments
-Hat tip to anyone whose code was used
-Inspiration
-etc
+Acknowledgments:
+Hat tip to anyone whose code was used and to reviewers that make possible constant improvement of this project.
+
+Inspiration: Code with your brain, work with your heart.
+
 📝 License
 This project is MIT licensed.
