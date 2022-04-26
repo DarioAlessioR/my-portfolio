@@ -25,7 +25,7 @@ Live Demo Link:
 
 Getting Started: no special instructions needed
 
-Prerequisites: no prerequisites
+Prerequisites: no prerequisite
 
 Setup
 
