@@ -323,7 +323,7 @@ article {
     padding-top: 10px;
     padding-right: 0;
     padding-left: 0;
-    max-width: auto;
+    max-width: 100%;
     margin-left: 24px;
     margin-right: 68px;
   }
