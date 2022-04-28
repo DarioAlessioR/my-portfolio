@@ -2,7 +2,7 @@
 
 # Project Name: Dario Alessio's Portfolio 
 
-> Description of the project:
+Description of the project:
 
 This is a page for mobile devices create to include professional information regarding technical and soft skills and abilities to inform potential employers.
 
@@ -60,8 +60,6 @@ No Deployment instructions needed
 - GitHub: https://github.com/DarioAlessioR
 - Slack: https://microverse-students.slack.com/team/U039GCFRK9B
 - LinkedIn: https://www.linkedin.com/in/dario-alessio-3a3b7911b
-
-linkedin.com/in/dario-alessio-3a3b7911b
 
 ## 🤝 Contributing
 
