@@ -5,6 +5,7 @@
 
 html {
   font-size: 18px;
+  width: 100%;
 }
 
 a {
@@ -14,7 +15,8 @@ a {
 body {
   background-color: #191765;
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
 }
 
 nav a {
@@ -37,6 +39,7 @@ nav a {
 
 header {
   align-items: center;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -59,8 +62,10 @@ header a:hover {
 }
 
 section {
+  box-sizing: border-box;
   text-align: center;
-  overflow: visible;
+  overflow: hidden;
+  padding: 24px;
   position: relative;
   width: 100%;
 }
@@ -70,13 +75,6 @@ section {
   background-size: 184px 184px, 226px 226px;
   background-position: left 20px top 100px, right 20px top 500px;
   background-repeat: no-repeat, no-repeat;
-}
-
-#portfolio1 {
-  background: url('images/Ellipse19.png'), url('images/Ellipse20.svg'), url('images/Ellipse21.svg'), url('images/Ellipse22.svg');
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: left -50px top 160px, right -80px top 750px, left -10px top 1430px, right -40px top 2250px;
-  background-size: 55%;
 }
 
 .name {
@@ -169,9 +167,8 @@ nav li {
 hr {
   border: 1px solid #646369;
   margin: 0 auto;
-  max-width: 800px;
-  width: 85%;
-  margin-left: 24px;
+  width: 100%;
+  margin-left: 0;
 }
 
 #ctrlHide {
@@ -179,21 +176,20 @@ hr {
 }
 
 #works {
+  box-sizing: border-box;
+  background: url('images/Ellipse19.png'), url('images/Ellipse20.svg'), url('images/Ellipse21.svg'), url('images/Ellipse22.svg');
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: left -50px top 160px, right -80px top 750px, left -10px top 1430px, right -40px top 2000px;
+  background-size: 55% auto, 55% auto, 55% auto, 55% auto;
+  overflow: hidden;
   display: grid;
   text-align: left;
-  margin-bottom: 30px;
-  max-width: 1380px;
-  width: 100%;
   justify-content: center;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 #works h2 {
-  border-bottom: solid 2px #646369;
   color: #9390ff;
   margin-bottom: 15px;
-  margin-left: 24px;
   font-size: 2rem;
 }
 
@@ -240,7 +236,7 @@ article {
   column-gap: 20px;
   height: auto;
   margin: 0;
-  padding: 15px;
+  padding: 0;
   width: 100%;
 }
 
@@ -267,8 +263,6 @@ article {
   justify-content: center;
   flex-direction: column;
   display: flex;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .work-text h3 {
@@ -297,35 +291,17 @@ article {
 }
 
 #about {
-  display: block;
-  padding: 10px 0;
-  margin-top: 60px;
-  margin-bottom: 30px;
-  margin-left: 24px;
-  margin-right: 24px;
-  max-width: 1380px;
-  width: 100%;
   color: #9390ff;
   font-weight: 400;
   font-size: 1.6rem;
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
   header {
     display: flex;
-    flex-wrap: nowrap;
     box-sizing: border-box;
-    padding-top: 10px;
-    padding-right: 0;
-    padding-left: 0;
-    max-width: 100%;
-    margin-left: 24px;
-    margin-right: 68px;
+    padding: 15px;
+    width: 100%;
   }
 
   nav {
@@ -337,18 +313,6 @@ article {
     background-size: 226px 226px, 184px 184px;
     background-position: left -140px top 0, right -120px top 480px;
     background-repeat: no-repeat, no-repeat;
-    margin-left: 0;
-    margin-right: 0;
-    max-width: 90%;
-  }
-
-  #portfolio1 {
-    background: url('images/Ellipse19.png'), url('images/Ellipse20.svg'), url('images/Ellipse21.svg'), url('images/Ellipse22.svg');
-    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-    background-position: left -50px top 160px, right -80px top 750px, left -10px top 1430px, right -40px top 2000px;
-    background-size: 55%;
-    margin-left: 0;
-    margin-right: 24px;
   }
 
   .menu {
@@ -415,22 +379,23 @@ article {
   }
 
   #works {
-    padding: 10px 0;
-    margin-bottom: 30px;
-    max-width: 600px;
-    width: 100%;
+    background: url('images/Ellipse19.png'), url('images/Ellipse20.svg'), url('images/Ellipse21.svg'), url('images/Ellipse22.svg');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: left -50px top 270px, right -80px top 920px, left -10px top 1670px, right -40px top 2240px;
+    background-size: 55% auto, 55% auto, 55% auto, 55% auto;
+    overflow: hidden;
+    display: grid;
+    text-align: left;
     justify-content: center;
-    margin-left: 0;
-    margin-right: 24px;
   }
 
   #works h2 {
-    border-bottom: solid 2px #646369;
     color: #9390ff;
     margin-bottom: 15px;
-    font-size: 2rem;
-    padding: 10px 20px 0 0;
-    margin-right: 44px;
+    font-size: 2.3rem;
+    padding: 0 0 30px 0;
+    margin-right: 0;
+    max-width: 65%;
   }
 
   article {
@@ -439,7 +404,7 @@ article {
     row-gap: 20px;
     height: auto;
     margin: 0;
-    padding: 0;
+    padding-top: 55px;
     width: 100%;
   }
 
@@ -452,12 +417,12 @@ article {
   }
 
   .work-image {
-    margin-left: 24px;
     padding: 0;
+    width: 100%;
   }
 
   .work-image img {
-    width: 86%;
+    width: 100%;
     height: auto;
   }
 
@@ -475,16 +440,6 @@ article {
 
   .art_img_right div:nth-of-type(2) {
     order: 1;
-  }
-
-  #about {
-    display: block;
-    padding: 10px 0;
-    margin-top: 5px;
-    margin-bottom: 30px;
-    margin-left: 24px;
-    margin-right: 24px;
-    max-width: 75%;
   }
 
   .superButtonR {
