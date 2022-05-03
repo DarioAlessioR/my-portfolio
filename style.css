@@ -240,6 +240,22 @@ hr {
   font-size: 1rem;
 }
 
+.superButtonR:hover {
+  background-color: #0f0c38;
+}
+
+.superButtonR:enabled {
+  background-color: #7d73fc;;
+}
+
+.superButtonR:disabled {
+  background-color: #2a2b33;
+}
+
+.superButtonR:active {
+  background-color: #5e42d7;
+}
+
 article {
   box-sizing: border-box;
   display: grid;
@@ -344,37 +360,6 @@ input::placeholder {
 textarea::placeholder {
   color: #81818c;
   font-family: 'Roboto', sans-serif;
-}
-
-.button {
-  border: none;
-  background-color: #7d73fc;
-  text-decoration: none;
-  padding: 8px 12px;
-  color: #edecff;
-  margin-bottom: 20px;
-}
-
-.button:hover {
-  background-color: #07051b;
-  text-decoration: none;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.button:enabled {
-  background-color: #7d73fc;
-  text-decoration: none;
-}
-
-.button:disabled {
-  background-color: #2a2b33;
-  text-decoration: none;
-}
-
-.button:active {
-  background-color: #5e42d7;
-  text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
