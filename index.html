@@ -5,12 +5,10 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Dario Alessio Portfolio Page</title>  
       <script src="https://kit.fontawesome.com/8bfb3ed134.js" crossorigin="anonymous"></script>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
       <link href="style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="body">
+
     <header>
       <h5><a href="#">Dario Alessio</a></h5>
 
@@ -75,14 +73,14 @@
     
       <div class="container-WorkSocial">
         <h6 id="ctrlHide">Work <i class="fas fa-arrow-down"></i></h6>
-        <div id="socialmedia">
+        
         <ul>
           <li><a href="#" target="new"><i class="fab fa-github social-icon"></i></a></li>
           <li><a href="#" target="new"><i class="fab fa-linkedin-in social-icon"></i></a></li>
           <li><a href="#" target="new"><i class="fab fa-facebook social-icon"></i></a></li>
           <li><a href="#" target="new"><i class="fab fa-twitter social-icon"></i></a></li>
         </ul>
-        </div>
+        
         <h6><i class="fas fa-arrow-down"></i> Work</h6>
       </div>
     </section>
@@ -91,8 +89,6 @@
 
       
         <h2>My recent works</h2>
-
-        <hr />
 
         <article class="art_img_left">
 
@@ -187,10 +183,42 @@
            external clients to reach their goals, mainly in the educational and 
            financial institutions sector. I can make your projects go ahead, 
            finish on time, improve and grow according to your evolving needs.
-
-        </p>
+          </p>
         <a href="#" class="superButtonR">Download Resume</a>
 
+    </section>
+
+    <section id="contactForm">
+
+      <h4>CONTACT US</h4>
+      <p>If you have an application you are interested in developing, a feature that
+        you need built or a project that needs coding, I'd love to help with it.
+      </p>
+      
+      <div class="contact">
+        <form action="https://formspree.io/f/xrgjojpj" method="post">
+          <input type="text" id="name" name="user_name" placeholder="Name" required minlength="1" maxlength="30">
+          <input type="text" id="lastname" name="user_last_name" placeholder="Last name" required minlength="1" maxlength="30">
+          <input type="email" id="mail" name="user_email" placeholder="Email address" required>
+          <textarea id="msg" name="user_message" placeholder="Your message" required minlength="1" maxlength="500"></textarea>
+          <div class="button">
+            <button class="superButton" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+
+      <hr>
+      <div class="container-WorkSocial">
+        <ul>
+          <li><a href="#" target="new"><i class="fab fa-github social-icon"></i></a></li>
+          <li><a href="#" target="new"><i class="fab fa-linkedin-in social-icon"></i></a></li>
+          <li><a href="#" target="new"><i class="fab fa-facebook social-icon"></i></a></li>
+          <li><a href="#" target="new"><i class="fab fa-twitter social-icon"></i></a></li>
+        </ul>
+       
+        <h6>email@email.com</h6>
+      
+      </div>
     </section>
   </body>
 </html>

@@ -145,6 +145,13 @@ nav li {
   margin: 0 20px;
 }
 
+.container-WorkSocial h6 {
+  color: white;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
 .features {
   width: 33.3%;
 }
@@ -194,6 +201,7 @@ hr {
 }
 
 .superButton {
+  border: none;
   background-color: #7d73fc;
   text-decoration: none;
   padding: 8px 12px;
@@ -204,6 +212,8 @@ hr {
 .superButton:hover {
   background-color: #7d73fc;
   text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .superButton:enabled {
@@ -294,6 +304,46 @@ article {
   color: #9390ff;
   font-weight: 400;
   font-size: 1.6rem;
+}
+
+#contactForm {
+  color: #9390ff;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  margin-bottom: 50px;
+}
+
+.contact form {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.contact form input {
+  width: 100%;
+}
+
+.contact form textarea {
+  height: 90px;
+  margin-top: 12px;
+  width: 100%;
+}
+
+input::placeholder {
+  color: #81818c;
+  font-family: 'Roboto', sans-serif;
+}
+
+textarea::placeholder {
+  color: #81818c;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -445,7 +495,7 @@ article {
   .superButtonR {
     background-color: #7d73fc;
     text-decoration: none;
-    padding: 8px 5px;
+    padding: 8px 6px;
     color: #edecff;
     margin-bottom: 20px;
     margin-left: 5px;
