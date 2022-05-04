@@ -145,6 +145,13 @@ nav li {
   margin: 0 20px;
 }
 
+.container-WorkSocial h6 {
+  color: #a2a3ae;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
 .features {
   width: 33.3%;
 }
@@ -194,16 +201,21 @@ hr {
 }
 
 .superButton {
+  border: none;
   background-color: #7d73fc;
   text-decoration: none;
   padding: 8px 12px;
   color: #edecff;
   margin-bottom: 20px;
+  width: 90px;
+  height: 35px;
 }
 
 .superButton:hover {
-  background-color: #7d73fc;
+  background-color: #0f0c38;
   text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .superButton:enabled {
@@ -228,6 +240,22 @@ hr {
   color: #edecff;
   margin-bottom: 20px;
   font-size: 1rem;
+}
+
+.superButtonR:hover {
+  background-color: #0f0c38;
+}
+
+.superButtonR:enabled {
+  background-color: #7d73fc;
+}
+
+.superButtonR:disabled {
+  background-color: #2a2b33;
+}
+
+.superButtonR:active {
+  background-color: #5e42d7;
 }
 
 article {
@@ -294,6 +322,61 @@ article {
   color: #9390ff;
   font-weight: 400;
   font-size: 1.6rem;
+}
+
+#contactForm {
+  color: #9390ff;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  margin-bottom: 50px;
+}
+
+.contact form {
+  list-style: none;
+  margin-top: 10px;
+  padding-top: 170px;
+  margin-bottom: 150px;
+  height: 100%;
+}
+
+.contact form input {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 24px;
+  font-size: 0.9rem;
+}
+
+.contact form textarea {
+  height: 148px;
+  margin-top: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+input::placeholder {
+  color: #81818c;
+  font-family: 'Roboto', sans-serif;
+}
+
+textarea::placeholder {
+  color: #81818c;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bottomLine {
+  border: 1px solid #646369;
+  margin: 0 auto;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 180px;
 }
 
 @media screen and (max-width: 600px) {
@@ -369,9 +452,14 @@ article {
     padding: 0;
   }
 
-  .container-WorkSocial ul {
+  .container-WorkSocial div {
     list-style: none;
     margin: 10px 0 20px 0;
+    font-size: 25px;
+  }
+
+  .container-WorkSocial div a {
+    padding: 8px;
   }
 
   #ctrlHide {
@@ -445,7 +533,7 @@ article {
   .superButtonR {
     background-color: #7d73fc;
     text-decoration: none;
-    padding: 8px 5px;
+    padding: 8px 6px;
     color: #edecff;
     margin-bottom: 20px;
     margin-left: 5px;
