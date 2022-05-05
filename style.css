@@ -533,8 +533,6 @@ textarea::placeholder {
     display: flex;
     flex-direction: row;
     margin-bottom: 50px;
-    
-    
   }
 
   .container-WorkSocial {
@@ -557,9 +555,6 @@ textarea::placeholder {
     font-size: 1.6rem;
   }
 
-
-
-
   #ctrlHide {
     display: block;
   }
@@ -575,7 +570,7 @@ textarea::placeholder {
     background: url('images/Ellipse19.png'), url('images/Ellipse20.svg'), url('images/Ellipse21.svg'), url('images/Ellipse22.svg');
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: left -10px top 80px, right -20px top 850px, left -1px top 1400px, right 0 top 1600px;
-    background-size: auto auto, auto auto, 17% 19%, 40% 15%;
+    background-size: auto auto, auto auto, 17% 19%, 41% 15%;
     overflow: hidden;
     display: grid;
     text-align: left;
