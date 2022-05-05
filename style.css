@@ -533,6 +533,20 @@ textarea::placeholder {
     display: flex;
     flex-direction: row;
     margin-bottom: 50px;
+    animation-name: slidein;
+    animation-duration: 2s;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   .container-WorkSocial {
@@ -634,6 +648,15 @@ textarea::placeholder {
 
   .superButtonR {
     background-color: #7d73fc;
+    text-decoration: none;
+    padding: 8px 5px;
+    color: #edecff;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+
+  .superButtonR:hover {
+    background-color: black;
     text-decoration: none;
     padding: 8px 5px;
     color: #edecff;
