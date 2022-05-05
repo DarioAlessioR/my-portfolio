@@ -121,6 +121,14 @@ nav li {
   width: 100%;
 }
 
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
 .container-WorkSocial {
   display: flex;
   flex-direction: column;
@@ -153,6 +161,27 @@ nav li {
   padding: 0;
   font-size: 1rem;
   font-weight: lighter;
+}
+
+.container-WorkSocial2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+}
+
+.container-WorkSocial2 div {
+  list-style: none;
+  margin: 10px 0 20px 0;
+  font-size: 25px;
+}
+
+.container-WorkSocial2 div a {
+  list-style: none;
+  margin: 10px 0 0 0;
+  font-size: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .features {
@@ -500,6 +529,14 @@ textarea::placeholder {
     color: white;
   }
 
+  footer div {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    
+    
+  }
+
   .container-WorkSocial {
     box-sizing: border-box;
     display: flex;
@@ -509,6 +546,19 @@ textarea::placeholder {
     padding: 25px 20px 0 0;
     font-size: 1.6rem;
   }
+
+  .container-WorkSocial2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #b3bac5;
+    padding: 25px 20px 0 0;
+    font-size: 1.6rem;
+  }
+
+
+
 
   #ctrlHide {
     display: block;
@@ -524,7 +574,7 @@ textarea::placeholder {
     box-sizing: border-box;
     background: url('images/Ellipse19.png'), url('images/Ellipse20.svg'), url('images/Ellipse21.svg'), url('images/Ellipse22.svg');
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-    background-position: left -10px top 80px, right -20px top 850px, left -1px top 1400px, right 0px top 1600px;
+    background-position: left -10px top 80px, right -20px top 850px, left -1px top 1400px, right 0 top 1600px;
     background-size: auto auto, auto auto, 17% 19%, 40% 15%;
     overflow: hidden;
     display: grid;
@@ -584,8 +634,6 @@ textarea::placeholder {
   .art_img_left div:nth-of-type(2) {
     order: 2;
   }
-
-
 
   .superButtonR {
     background-color: #7d73fc;
