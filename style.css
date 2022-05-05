@@ -243,7 +243,7 @@ hr {
 }
 
 .superButton:hover {
-  background-color: #0f0c38;
+  background-color: #7d73fc;
   text-decoration: none;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -275,7 +275,7 @@ hr {
 }
 
 .superButtonR:hover {
-  background-color: #0f0c38;
+  background-color: #7d73fc;
 }
 
 .superButtonR:enabled {
