@@ -460,6 +460,9 @@ textarea::placeholder {
   hr {
     border: 1px solid #646369;
     margin-bottom: 60px;
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 84%;
   }
 
   #portfolio hr {
@@ -504,7 +507,6 @@ textarea::placeholder {
     justify-content: space-between;
     color: #b3bac5;
     padding: 25px 20px 0 0;
-    
     font-size: 1.6rem;
   }
 
@@ -528,15 +530,15 @@ textarea::placeholder {
     display: grid;
     text-align: left;
     justify-content: center;
-    margin-left: 8.5%;
-    margin-right: 8.5%;
-    width: 83%;
   }
 
   #works h2 {
     color: #9390ff;
     margin-bottom: 15px;
     font-size: 2rem;
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 84%;
   }
 
   article {
@@ -545,8 +547,10 @@ textarea::placeholder {
     column-gap: 20px;
     height: auto;
     margin: 0;
-    padding: 0;
-    width: 100%;
+    padding: 30px;
+    width: 84%;
+    margin-left: 8%;
+    margin-right: 8%;
   }
 
   .work-text p {
@@ -572,6 +576,16 @@ textarea::placeholder {
   .art_img_right {
     grid-template-columns: 40% 60%;
   }
+
+  .art_img_right div:nth-of-type(1) {
+    order: 1;
+  }
+
+  .art_img_left div:nth-of-type(2) {
+    order: 2;
+  }
+
+
 
   .superButtonR {
     background-color: #7d73fc;
