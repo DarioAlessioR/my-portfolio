@@ -533,6 +533,20 @@ textarea::placeholder {
     display: flex;
     flex-direction: row;
     margin-bottom: 50px;
+    animation-name: slidein;
+    animation-duration: 6s;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   .container-WorkSocial {
