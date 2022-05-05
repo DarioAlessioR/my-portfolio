@@ -524,8 +524,8 @@ textarea::placeholder {
     box-sizing: border-box;
     background: url('images/Ellipse19.png'), url('images/Ellipse20.svg'), url('images/Ellipse21.svg'), url('images/Ellipse22.svg');
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-    background-position: left -50px top 160px, right -80px top 750px, left -10px top 1430px, right -40px top 2000px;
-    background-size: 55% auto, 55% auto, 55% auto, 55% auto;
+    background-position: left -10px top 80px, right -20px top 850px, left -1px top 1400px, right 0px top 1600px;
+    background-size: auto auto, auto auto, 17% 19%, 40% 15%;
     overflow: hidden;
     display: grid;
     text-align: left;
