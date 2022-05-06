@@ -534,7 +534,7 @@ textarea::placeholder {
     flex-direction: row;
     margin-bottom: 50px;
     animation-name: slidein;
-    animation-duration: 2s;
+    animation-duration: 6s;
   }
 
   @keyframes slidein {
