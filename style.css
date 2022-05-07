@@ -558,7 +558,10 @@ textarea::placeholder {
     flex-direction: row;
     justify-content: space-between;
     color: #b3bac5;
-    padding: 25px 20px 0 0;
+    padding: 25px 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
     font-size: 1.6rem;
   }
 
@@ -612,7 +615,7 @@ textarea::placeholder {
     column-gap: 20px;
     height: auto;
     margin: 0;
-    padding: 30px;
+    padding: 0;
     width: 84%;
     margin-left: 8%;
     margin-right: 8%;
