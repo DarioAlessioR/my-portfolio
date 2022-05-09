@@ -4,9 +4,11 @@
 
 Description of the project:
 
-This is a page for mobile devices create to include professional information regarding technical and soft skills and abilities to inform potential employers.
+This is a page created to include professional information regarding technical and soft skills and abilities to inform potential employers.
 
-This is the second part of the whole project. It includes the previously completed homepage section and the newly added "My recent works" and "About" section for mobile devices.
+This is the 4th part of the whole project. It includes the previously completed homepage, "My recent works", "About myself", and Contact form sections, as well as the newly added link to the deployed page using Github Pages, which can be found in the section Deployment of this README file.
+
+The project includes both mobile and desktop versions.
 
 Project will be updated in next weeks with more information about the completed projects that will form part of the portafolio.
 
@@ -51,7 +53,9 @@ No test required
 
 ### Deployment
 
-No Deployment instructions needed
+Deployment done with Github Pages.
+
+Link: https://darioalessior.github.io/my-portfolio/
 
 ## Authors
 
