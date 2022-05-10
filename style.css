@@ -233,7 +233,7 @@ hr {
 
 .superButton {
   border: none;
-  background-color: #5952c5;
+  background-color: #3d34b4;
   text-decoration: none;
   padding: 8px 12px;
   color: #edecff;
@@ -249,7 +249,7 @@ hr {
 }
 
 .superButton:enabled {
-  background-color: #5952c5;
+  background-color: #3d34b4;
   text-decoration: none;
 }
 
@@ -264,7 +264,7 @@ hr {
 }
 
 .superButtonR {
-  background-color: #5952c5;
+  background-color: #3d34b4;
   text-decoration: none;
   padding: 8px 6px;
   color: #edecff;
@@ -654,7 +654,7 @@ div form button {
   }
 
   .superButtonR {
-    background-color: #5952c5;
+    background-color: #3d34b4;
     text-decoration: none;
     padding: 8px 5px;
     color: #edecff;
@@ -663,7 +663,7 @@ div form button {
   }
 
   .superButtonR:hover {
-    background-color: black;
+    background-color: #7d73fc;
     text-decoration: none;
     padding: 8px 5px;
     color: #edecff;
