@@ -372,12 +372,20 @@ article {
   margin-bottom: 10px;
 }
 
+#contactForm label {
+  color: #f4f4fa;
+  font-weight: 100;
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
 .contact {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 250px;
-  margin-bottom: 50px;
+  margin-bottom: 230px;
 }
 
 .contact form {
@@ -669,5 +677,9 @@ div form button {
     color: #edecff;
     margin-bottom: 20px;
     font-size: 1rem;
+  }
+
+  .contact form {
+    width: 50%;
   }
 }
