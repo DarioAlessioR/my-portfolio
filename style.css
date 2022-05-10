@@ -156,7 +156,7 @@ footer div {
   margin: 0 20px;
 }
 
-.container-WorkSocial h4 {
+.container-WorkSocial h6 {
   color: #a2a3ae;
   padding: 0;
   font-size: 1rem;
@@ -192,7 +192,7 @@ footer div {
   line-height: 3;
 }
 
-.features h3 {
+.features h4 {
   color: #9390ff;
 }
 
@@ -225,7 +225,7 @@ hr {
 #works h2 {
   color: #9390ff;
   margin-bottom: 15px;
-  font-size: 2rem;
+  font-size: 2.3rem;
   padding: 0 0 30px 0;
   margin-right: 0;
   max-width: 65%;
@@ -233,23 +233,24 @@ hr {
 
 .superButton {
   border: none;
-  background-color: #3d34b4;
+  background-color: #7d73fc;
   text-decoration: none;
   padding: 8px 12px;
   color: #edecff;
   margin-bottom: 20px;
-  height: auto;
+  width: 90px;
+  height: 35px;
 }
 
 .superButton:hover {
-  background-color: #7d73fc;
+  background-color: #736af0;
   text-decoration: none;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 
 .superButton:enabled {
-  background-color: #3d34b4;
+  background-color: #7d73fc;
   text-decoration: none;
 }
 
@@ -264,7 +265,7 @@ hr {
 }
 
 .superButtonR {
-  background-color: #3d34b4;
+  background-color: #7d73fc;
   text-decoration: none;
   padding: 8px 6px;
   color: #edecff;
@@ -362,21 +363,13 @@ article {
 #about {
   color: #9390ff;
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 
 #contactForm {
   color: #9390ff;
   font-weight: 400;
-  font-size: 1.3rem;
-  margin-bottom: 10px;
-}
-
-#contactForm label {
-  color: #f4f4fa;
-  font-weight: 100;
-  font-size: 1rem;
-  text-align: left;
+  font-size: 1.6rem;
   margin-bottom: 10px;
 }
 
@@ -385,7 +378,7 @@ article {
   justify-content: center;
   align-items: center;
   height: 250px;
-  margin-bottom: 230px;
+  margin-bottom: 50px;
 }
 
 .contact form {
@@ -418,10 +411,6 @@ input::placeholder {
 textarea::placeholder {
   color: #81818c;
   font-family: 'Roboto', sans-serif;
-}
-
-div form button {
-  font-size: 1rem;
 }
 
 .bottomLine {
@@ -548,10 +537,6 @@ div form button {
     animation-duration: 7s;
   }
 
-  footer div h3 {
-    font-size: 1.3rem;
-  }
-
   @keyframes slidein {
     from {
       margin-left: 100%;
@@ -590,7 +575,7 @@ div form button {
     display: block;
   }
 
-  .container-WorkSocial h4 {
+  .container-WorkSocial h6 {
     padding-top: 15px;
     padding-left: 12%;
     padding-right: 12%;
@@ -662,15 +647,6 @@ div form button {
   }
 
   .superButtonR {
-    background-color: #3d34b4;
-    text-decoration: none;
-    padding: 8px 5px;
-    color: #edecff;
-    margin-bottom: 20px;
-    font-size: 1rem;
-  }
-
-  .superButtonR:hover {
     background-color: #7d73fc;
     text-decoration: none;
     padding: 8px 5px;
@@ -679,7 +655,12 @@ div form button {
     font-size: 1rem;
   }
 
-  .contact form {
-    width: 50%;
+  .superButtonR:hover {
+    background-color: black;
+    text-decoration: none;
+    padding: 8px 5px;
+    color: #edecff;
+    margin-bottom: 20px;
+    font-size: 1rem;
   }
 }
