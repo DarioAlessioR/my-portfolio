@@ -156,7 +156,7 @@ footer div {
   margin: 0 20px;
 }
 
-.container-WorkSocial h6 {
+.container-WorkSocial h4 {
   color: #a2a3ae;
   padding: 0;
   font-size: 1rem;
@@ -192,7 +192,7 @@ footer div {
   line-height: 3;
 }
 
-.features h4 {
+.features h3 {
   color: #9390ff;
 }
 
@@ -225,7 +225,7 @@ hr {
 #works h2 {
   color: #9390ff;
   margin-bottom: 15px;
-  font-size: 2.3rem;
+  font-size: 2rem;
   padding: 0 0 30px 0;
   margin-right: 0;
   max-width: 65%;
@@ -233,12 +233,12 @@ hr {
 
 .superButton {
   border: none;
-  background-color: #7d73fc;
+  background-color: #5952c5;
   text-decoration: none;
   padding: 8px 12px;
   color: #edecff;
   margin-bottom: 20px;
-  height: 35px;
+  height: auto;
 }
 
 .superButton:hover {
@@ -249,7 +249,7 @@ hr {
 }
 
 .superButton:enabled {
-  background-color: #7d73fc;
+  background-color: #5952c5;
   text-decoration: none;
 }
 
@@ -264,7 +264,7 @@ hr {
 }
 
 .superButtonR {
-  background-color: #7d73fc;
+  background-color: #5952c5;
   text-decoration: none;
   padding: 8px 6px;
   color: #edecff;
@@ -362,13 +362,13 @@ article {
 #about {
   color: #9390ff;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 
 #contactForm {
   color: #9390ff;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   margin-bottom: 10px;
 }
 
@@ -410,6 +410,10 @@ input::placeholder {
 textarea::placeholder {
   color: #81818c;
   font-family: 'Roboto', sans-serif;
+}
+
+div form button {
+  font-size: 1rem;
 }
 
 .bottomLine {
@@ -536,6 +540,10 @@ textarea::placeholder {
     animation-duration: 7s;
   }
 
+  footer div h3 {
+    font-size: 1.3rem;
+  }
+
   @keyframes slidein {
     from {
       margin-left: 100%;
@@ -574,7 +582,7 @@ textarea::placeholder {
     display: block;
   }
 
-  .container-WorkSocial h6 {
+  .container-WorkSocial h4 {
     padding-top: 15px;
     padding-left: 12%;
     padding-right: 12%;
@@ -646,7 +654,7 @@ textarea::placeholder {
   }
 
   .superButtonR {
-    background-color: #7d73fc;
+    background-color: #5952c5;
     text-decoration: none;
     padding: 8px 5px;
     color: #edecff;
