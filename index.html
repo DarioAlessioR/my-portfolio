@@ -15,7 +15,8 @@
       <h5><a href="#">Dario Alessio</a></h5>
 
       <nav>
-        <ul>
+        <ul class="mobile-drop show" id="show">
+          <li id="close" class="close">&times;</li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -27,19 +28,8 @@
       </nav>
 
       <div class="menu" title="menu">
-        <a href="#about"><img src="images/union.png" alt="menu icon" onclick="openNav()"></a>
+        <img src="images/union.png" alt="menu icon" onclick="openMenu()">
       </div>
-
-      <div id="myNav" class="overlay">
-        <a href="#x" class="closebtn" onclick="closeNav()">&times;</a>
-          <div class="overlay-content">
-            <a href="#portfolio">Portfolio</a>
-            <a href="#About">About</a>
-            <a href="#contact">Contact</a>
-            <a href="#email">Email</a>
-          </div>
-      </div>
-
     </header>
 
     <section id="portfolio">
@@ -248,12 +238,12 @@
     </footer>
 
     <script>
-      function openNav() {
-        document.getElementById("myNav").style.width = 100%;
+      function openMenu() {
+        document.getElementById("myMenu").style.width = 100%;
       }
 
-      function closeNav() {
-        document.getElementById("myNav").style.width = 0%;
+      function closeMenu() {
+        document.getElementById("myMenu").style.width = 0%;
       }
 
     </script>

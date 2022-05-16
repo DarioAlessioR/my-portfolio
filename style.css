@@ -30,11 +30,49 @@ nav {
   margin-bottom: -4px;
 }
 
+
 .menu {
-  background: url('images/union.png') no-repeat;
+  /* background: url('images/union.png') no-repeat; */
   height: 30px;
   display: block;
   width: 30px;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(39, 27, 27);
+  background-color: rgba(12, 10, 10, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+  display: block;
+  transition: 0.4s;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 2rem;
 }
 
 header {
