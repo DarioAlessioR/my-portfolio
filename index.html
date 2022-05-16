@@ -26,7 +26,10 @@
         </ul>
       </nav>
 
-      <div class="menu" title="menu"></div>
+      <div class="menu" title="menu">
+        <a href="#about"><img src="images/union.png" alt="menu icon" onclick="openNav()"></a>
+      </div>
+
     </header>
     <section id="portfolio">
       <h1 class="name">Dario Alessio</h1>
@@ -232,6 +235,21 @@
       </div>
     
     </footer>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = 100%;
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = 0%;
+      }
+
+    </script>
+
+
+
+
 
   </body>
 </html>
