@@ -23,6 +23,21 @@ nav {
   display: none;
 }
 
+@media screen and (max-width: 768px) {
+  .mobile-drop {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(96, 112, 255, 0.9);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    padding-top: 120px;
+    bottom: 0;
+  }
+}
+
 .email {
   display: block;
   padding: 1px 1px 0;
