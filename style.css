@@ -720,6 +720,10 @@ body {
     display: block;
   }
 
+  #xclose {
+    display: none;
+  }
+
   #veryclose {
     display: none;
   }
