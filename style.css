@@ -33,19 +33,29 @@ body {
     bottom: 0;
     left: 0;
     background: url("./images/shapes-mobile-menu.svg") no-repeat , #191765;
-
+    background-position: right 0px top 460%;
+    background-size: 111% 111%;
   }
 
   .mobile-drop li {
     padding-left: 28px;
     padding-top: 20px;
     font-weight: 150;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 44px;
+    width: 75%;
   }
 
   .mobile-drop li a {
     color: #fff;
+  }
+
+  .mobile-drop li a i {
+    color: #acb7c3;
+    width: 10%;
+    float: right;
+    align-items: flex-end;
+    padding-top: 13px;
   }
 
   #close {
@@ -66,8 +76,6 @@ body {
     flex-direction: column;
   }
 
-}
-
 .email {
   display: none;
   padding: 1px 1px 0;
@@ -75,9 +83,7 @@ body {
   margin-bottom: -4px;
 }
 
-
 .menu {
-  /* background: url('images/union.png') no-repeat; */
   height: 30px;
   display: block;
   width: 30px;
@@ -717,4 +723,5 @@ textarea::placeholder {
   #close {
     display: none;
   }
+}
 }
