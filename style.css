@@ -19,36 +19,22 @@ body {
   width: 100%;
 }
 
-nav {
- /* display: none; */
-}
 
 @media screen and (max-width: 768px) {
   .mobile-drop {
-    /* display: none; */
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
+    scroll-behavior: smooth;
+    display: none;
+    z-index: 2;
     position: absolute;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    right: 0;
+    width: 100vw;
+    height: 1300vh;
+    top: 3px;
+    right: 3px;
     bottom: 0;
     left: 0;
-    background: url("./images/shapes-mobile-menu.svg"), #191765;
-  
-  
-  
-  
+    background: url("./images/shapes-mobile-menu.svg") no-repeat , #191765;
+
   }
-
-
-
-
-
-
-
 
   .mobile-drop li {
     padding-left: 28px;
@@ -63,23 +49,27 @@ nav {
   }
 
   #close {
-    width: 20px;
+    width: 85%;
     color: white;
+    cursor: pointer;
+    text-align: right;
   }
 
   .close {
     position: absolute;
     top: 6%;
-    right: 6%;
+    right: 0;
   }
 
   .show {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
   }
+
 }
 
 .email {
-  display: block;
+  display: none;
   padding: 1px 1px 0;
   text-decoration: none;
   margin-bottom: -4px;
@@ -718,5 +708,13 @@ textarea::placeholder {
     color: #edecff;
     margin-bottom: 20px;
     font-size: 1rem;
+  }
+
+  .email {
+    display: block;
+  }
+
+  #close {
+    display: none;
   }
 }

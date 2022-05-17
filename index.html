@@ -13,14 +13,13 @@
   <body class="body">
     <header>
       <h5><a href="#">Dario Alessio</a></h5>
-
       <nav>
         <ul class="mobile-drop show" id="show">
-          <li id="close" class="close">X</li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li>
+          <li class="menu-link" id="close" class="close">X</li>
+          <li class="menu-link"><a href="#works">Portfolio</a></li>
+          <li class="menu-link"><a href="#about">About</a></li>
+          <li class="menu-link"><a href="#contactForm">Contact</a></li>
+          <li class="menu-link email">
             <a href="#email" class="email" aria-label="email icon from Fontawesom"><i class="fa fa-envelope-o" aria-hidden="true"></i>
             </a>
           </li>
@@ -32,7 +31,7 @@
       </div>
     </header>
 
-    <section id="portfolio">
+    <section id="portfolio" >
       <h1 class="name">Dario Alessio</h1>
       <h2 class="profession">Software Developer</h2>
 
@@ -207,7 +206,7 @@
         with it.
       </p>
 
-      <div class="contact">
+      <div class="contact" id>
         <form action="https://formspree.io/f/xrgjojpj" method="post">
           <label for="name">Name</label>
           <input type="text" id="name" name="user_name" placeholder="Name" required minlength="1" maxlength="30"/>
