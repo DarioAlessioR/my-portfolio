@@ -13,4 +13,5 @@ link.addEventListener('click', ()=>{
 
 open.addEventListener('click',()=>{
  ul.classList.add('show')
+ console.log("Hola")
 })
