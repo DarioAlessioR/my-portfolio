@@ -235,17 +235,17 @@
       </div>
     </footer>
 
-    <div id="showmodal" class="modal">
+    <div id="modalWin" class="modal modal_hide">
       <div class="modalWin">
         <div class="title">
           <h3 id="modal_title">Fugadøs Band's Website</h3>
           <h5 id="closeModal" onClick="modalClose('true')">X</h5>
         </div>
         <div class="imgModal">
-          <img src="images/portfolio/Fugados.jpg" alt="image of rock band Fugados" />
+          <img id="modal_image" src="images/portfolio/Fugados.jpg" alt="image of rock band Fugados" />
         </div>
         <div class="modalInfo">
-          <p>
+          <p id="modal_description">
             Official site for best indie rock band of Venezuela. Site was
             created following client strict requirements, according to indie
             rock websites standards.
@@ -258,8 +258,8 @@
         </ul>
 
         <div class="buttonPopup">
-          <a href="#" class="superButtonPopup">See Live<i class="fas fa-link social-icon"></i></a>
-          <a href="#" class="superButtonPopup">See Source<i class="fab fa-github social-icon"></i></a>
+          <a id="modal_live" href="#" target="new" class="superButtonPopup">See Live<i class="fas fa-link social-icon"></i></a>
+          <a id="modal_source" href="#" target="new" class="superButtonPopup">See Source<i class="fab fa-github social-icon"></i></a>
         </div>
       </div>
     </div>

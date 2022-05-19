@@ -464,20 +464,22 @@ header a {
     margin-top: 180px;
   }
 
-/* A PARTIR DE AQUI LA MAQUETA DEL MOBAILE POPUP */
+  /* A PARTIR DE AQUI LA MAQUETA DEL MOBILE POPUP */
 
   .modal {
     align-items: center;
-    background-color: rgba(2, 16, 65, 0.90);
-    display: flex;
+    background-color: rgba(2, 16, 65, 1);
+    display: none;
     height: 100%;
+    max-height: 800px;
     justify-content: center;
     left: 0;
-    position: absolute;
+    opacity: 1;
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    /* transition: 10s; */
+    transition: 2s;
   }
 
   .modalWin {
@@ -486,18 +488,21 @@ header a {
     justify-content: center;
     flex-direction: column;
     max-width: 768px;
-    max-height: 700px;
+    max-height: 750px;
     padding: 10px 0 20px 0;
     position: relative;
     width: 90%;
-    /* transition: 10s; */
+    transition: 2s;
     align-items: center;
-    /*
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 50px;
-    */
     border: #fff solid 1px;
+  }
+
+  .modal_show {
+    opacity: 1;
+  }
+
+  .modal_hide {
+    opacity: 0;
   }
 
   .modalWin .title {
@@ -507,7 +512,6 @@ header a {
   .modalWin h3 {
     font-size: 1.3rem;
     font-weight: 400;
-    
     float: left;
   }
 
@@ -556,38 +560,25 @@ header a {
     font-size: 0.6rem;
   }
 
+  .lang-tag-base {
+    list-style-type: none;
+  }
+
   .buttonPopup {
-    border: #9dad0c solid 2px;
-    width: 45%;
+    width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
   }
 
   .superButtonPopup {
-    border: #ad0c0c solid 2px;
     background-color: #7d73fc;
     text-decoration: none;
     padding: 8px 5px;
     color: #edecff;
     font-size: 0.7rem;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
@@ -987,15 +978,12 @@ header a {
     display: none;
   }
 
-
-/* A PARTIR DE AQUI LA MAQUETA DESKTOP DEL POPUP */
-
-
+  /* A PARTIR DE AQUI LA MAQUETA DESKTOP DEL POPUP */
 
   .modal {
     align-items: center;
-    background-color: rgba(2, 16, 65, 0.90);
-    display: flex;
+    background-color: rgba(2, 16, 65, 1);
+    display: none;
     height: 100%;
     justify-content: center;
     left: 0;
@@ -1007,19 +995,33 @@ header a {
     background-size: 184px 184px, 226px 226px;
     background-position: left 20px top 100px, right 20px top 350px;
     background-repeat: no-repeat, no-repeat;
-    opacity: 1.5;
+    opacity: 1;
+    transition: 2s;
   }
 
   .modalWin {
-    /*align-items: center;*/
     background-color: rgba(255, 255, 255, 0.16);
-    max-width: 680px;
-    max-height: 500px;
-    padding: 10px 0 20px 10px;
+    max-width: 700px;
+    max-height: 550px;
+    padding: 10px 10px 20px 10px;
     position: relative;
     width: 90%;
     border: #fff solid 1px;
     text-align: center;
+    transition: 2s;
+  }
+
+  .modalWin #closeModal {
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    float: right;
+    justify-content: center;
+    height: 50px;
+    margin: -25px -10px 0 0;
+    opacity: 0.9;
+    transition: 0.5s;
+    width: 50px;
   }
 
   .modalWin .social-icon {
@@ -1030,7 +1032,7 @@ header a {
     font-size: 1.3rem;
     font-weight: 400;
     text-align: left;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
   }
 
   .modalWin h5 {
@@ -1043,22 +1045,16 @@ header a {
   }
 
   .modalWin p {
-    color:white;
+    color: white;
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 20px;
   }
 
-  .modalWin a img {
-    height: auto;
-    width: 17px;
-    position: relative;
-    top: 3px;
-  }
-
   .modalWin .imgModal img {
     height: auto;
-    width: 40%;
+    width: 50%;
+    margin-left: 40px;
   }
 
   .modalWin ul {
@@ -1083,6 +1079,8 @@ header a {
     justify-content: center;
     column-gap: 5px;
     align-items: center;
+    width: 100%;
+    height: 100%;
   }
 
   .superButtonPopup {
@@ -1094,5 +1092,6 @@ header a {
     height: 15px;
     font-size: 0.7rem;
     width: 90px;
+    flex-wrap: wrap;
   }
 }
