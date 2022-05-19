@@ -6,6 +6,7 @@ Description of the project:
 
 This is a page created to include professional information regarding technical and soft skills and abilities to inform potential employers.
 
+This is the 6th part of the whole project. It includes the previously completed homepage, "My recent works", "About myself", and Contact form sections, as well as the newly added link to the deployed page using Github Pages, which can be found in the section Deployment of this README file. In this 6th part of the project, a popup has been added when clicking on the "Go to site !" buttons.
 
 The project includes both mobile and desktop versions.
 
