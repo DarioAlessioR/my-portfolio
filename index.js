@@ -93,5 +93,12 @@ const modalOpen = (num = null) => {
   }
 };
 
+function verify() {
+  const email = document.getElementById('email').value;
+  if (email === email.toLowerCase()) {
+    return true;
+  }
+}
+
 modalOpen();
 modalClose();
