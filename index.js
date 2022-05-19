@@ -93,12 +93,18 @@ const modalOpen = (num = null) => {
   }
 };
 
-function verify() {
-  const email = document.getElementById('email').value;
+function validate() {
+  const email = document.getElementById('mail').value;
   if (email === email.toLowerCase()) {
     return true;
   }
+  const message = document.getElementById('errorMessage');
+  message.style.fontSize = '15px';
+  message.style.color = 'red';
+  message.innerText = 'Please, type your email in lowercase';
+  return false;
 }
 
 modalOpen();
 modalClose();
+validate();
