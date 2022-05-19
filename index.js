@@ -99,8 +99,6 @@ function validate() {
     return true;
   }
   const message = document.getElementById('errorMessage');
-  message.style.fontSize = '15px';
-  message.style.color = 'red';
   message.innerText = 'Please, type your email in lowercase';
   return false;
 }
