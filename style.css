@@ -420,7 +420,7 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 350px;
     margin-bottom: 50px;
   }
 
@@ -428,7 +428,7 @@ header a {
     list-style: none;
     margin-top: 10px;
     padding-top: 170px;
-    margin-bottom: 150px;
+    padding-bottom: 250px;
     height: 100%;
   }
 
@@ -461,7 +461,7 @@ header a {
     margin: 0 auto;
     width: 100%;
     margin-left: 0;
-    margin-top: 180px;
+    margin-top: 230px;
   }
 
   /* A PARTIR DE AQUI LA MAQUETA DEL MOBILE POPUP */
@@ -578,6 +578,11 @@ header a {
     padding: 8px 5px;
     color: #edecff;
     font-size: 0.7rem;
+  }
+
+  #errorMessage {
+    font-size: 25px;
+    color: rgb(248, 3, 3);
   }
 }
 
@@ -923,7 +928,7 @@ header a {
     list-style: none;
     margin-top: 10px;
     padding-top: 170px;
-    margin-bottom: 150px;
+    margin-bottom: 270px;
     height: 100%;
     width: 60%;
   }
@@ -1093,5 +1098,10 @@ header a {
     font-size: 0.7rem;
     width: 90px;
     flex-wrap: wrap;
+  }
+
+  #errorMessage {
+    font-size: 20px;
+    color: rgb(248, 3, 3);
   }
 }
