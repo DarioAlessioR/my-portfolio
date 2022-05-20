@@ -95,7 +95,7 @@ const modalOpen = (num = null) => {
 
 function validate() {
   const email = document.getElementById('mail').value;
-  if (email === email.toLowerCase()) {
+  if (email !== email.toLowerCase()) {
     return true;
   }
   const message = document.getElementById('errorMessage');
